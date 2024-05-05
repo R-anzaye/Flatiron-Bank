@@ -19,7 +19,7 @@ function AddTransactionForm() {
     setDate("")
 
 // just like javascript jsx enables us to use fetch function to fetch data from db.json and display it as post
-    fetch("https://flatiron-bank-4k5r.vercel.app/transactions", {
+    fetch("https://flatiron-bank-4k5r-git-main-ryans-projects-d27506d6.vercel.app/transactions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
