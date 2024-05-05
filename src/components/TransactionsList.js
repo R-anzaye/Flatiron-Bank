@@ -3,7 +3,7 @@ import React from "react";
 function TransactionsList({ transactions }) {
     // Define the delete function
     function handleDelete(transId) {
-      fetch(`https://flatiron-bank-4k5r-git-main-ryans-projects-d27506d6.vercel.app/transactions/${transId}`, {
+      fetch(`http://localhost:8001/transactions/${transId}`, {
         method: 'DELETE',
       })
       .then(response => response.json())
