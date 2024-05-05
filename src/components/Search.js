@@ -13,7 +13,7 @@ function Search() {
   /*This is how we fetch data from db.json with an inbuild react 
   component that takes data form db.json and places it inside the setTransactions() function as data*/
   useEffect(() => {
-    fetch("https://flatiron-bank-1.onrender.com/transactions")
+    fetch("http://localhost:8001/transactions")
       .then((response) => response.json())
       .then((data) => {
         setTransactions(data)
